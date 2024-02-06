@@ -1,0 +1,150 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"triangle": {
+			"type": "script",
+			"path": "script/triangle.js",
+			"global": true
+		},
+		"harold": {
+			"type": "image",
+			"path": "image/harold.png",
+			"width": 144,
+			"height": 192
+		},
+		"stick0": {
+			"type": "image",
+			"path": "image/stick0.png",
+			"width": 300,
+			"height": 300
+		},
+		"stick1": {
+			"type": "image",
+			"path": "image/stick1.png",
+			"width": 300,
+			"height": 300
+		},
+		"shadow": {
+			"type": "image",
+			"path": "image/shadow.png",
+			"width": 256,
+			"height": 64
+		},
+		"shot": {
+			"type": "image",
+			"path": "image/shot.png",
+			"width": 16,
+			"height": 16
+		},
+		"shotPlayer": {
+			"type": "image",
+			"path": "image/shotPlayer.png",
+			"width": 384,
+			"height": 86
+		},
+		"FunMath": {
+			"type": "script",
+			"path": "script/FunMath.js",
+			"global": true
+		},
+		"nc133497": {
+			"type": "audio",
+			"path": "audio/nc133497",
+			"systemId": "sound",
+			"duration": 813,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"title": {
+			"type": "image",
+			"path": "image/title.png",
+			"width": 1280,
+			"height": 720
+		},
+		"sm42205647": {
+			"type": "audio",
+			"path": "audio/sm42205647",
+			"systemId": "music",
+			"duration": 226799,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sceneTitle": {
+			"type": "script",
+			"path": "script/sceneTitle.js",
+			"global": true
+		},
+		"start": {
+			"type": "audio",
+			"path": "audio/start",
+			"systemId": "sound",
+			"duration": 2544,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sceneGame": {
+			"type": "script",
+			"path": "script/sceneGame.js",
+			"global": true
+		},
+		"nc311384": {
+			"type": "audio",
+			"path": "audio/nc311384",
+			"systemId": "sound",
+			"duration": 3008,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sky": {
+			"type": "image",
+			"path": "image/sky.png",
+			"width": 1,
+			"height": 240
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 200
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	]
+}
